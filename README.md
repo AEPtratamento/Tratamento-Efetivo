@@ -20,7 +20,7 @@ Baseado na necessidade de automatizar alguns serviços de saúde, o sistema ter�
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
-![Arquivo PDF do Protótipo Balsamiq feito para o Sistema Tratamento Efetivo](https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Telas%20projeto%20BD1%20v2.0.pdf)
+![Arquivo PDF do Protótipo Balsamiq feito para o Sistema Tratamento Efetivo](https://github.com/Pedro-Henrique-Moura/Tratamento-Efetivo/blob/master/Telas%20projeto%20BD1%20v3.0.pdf)
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     
