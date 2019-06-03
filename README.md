@@ -116,7 +116,7 @@ https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Tabela%20de%20dad
         
 ### 6	MODELO LÓGICO<br>
 
-![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Modelo_Conceitual2.png)
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Modelo_Logico.png)
 
 7	MODELO FÍSICO
 
