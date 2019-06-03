@@ -118,8 +118,35 @@ https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Tabela%20de%20dad
 
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Modelo_Logico.png)
 
-7	MODELO FÍSICO
+### 7	MODELO FÍSICO
 
 Link modelo físico: https://drive.google.com/drive/folders/1HNHsZx3BMc_Wu5OZrmySoSfP8RM8vC5K
     
 
+
+### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS
+
+
+8.4 - a) Os principais fluxos de dados de informação são:
+
+1-Pacientes em tratamento,uma vez que o sistema tem foco nos usuários de hospitais e seus tratamentos.
+
+2 - Médicos que auxiliam no tratamento dos pacientes,desde a primeira consulta até o fim do tratamento.
+
+3 -  Por fim,temos a tabela de tratamento,na qual apartir de um código obtemos todas as informações sobre o tratamento de um paciente,
+visando simplificar e tornar dinâmico o sistema.
+
+b) As tabelas que conterão mais dados no nosso sistema são:
+
+1 - Paciente
+2 - Médico
+3 - Endereço
+4 - Tratamento
+
+c) As 5 principais tabelas do sistema são:
+
+1 - Paciente
+2 - Médico
+3 - Endereço
+4 - Tratamento
+5 - Infermidade
