@@ -16,7 +16,7 @@ Baseado na necessidade de automatizar alguns serviços de saúde, o sistema ter�
 
 ### 3.MINI-MUNDO <br>
 
-> O sistema “Tratamento Efetivo” terá como usuários principais os pacientes e médicos. Será fornecido a esses usuários a possibilidade de registro no sistema. O paciente terá o seu nome, peso, altura, data de nascimento, cpf e endereço registrado no sistema, enquanto do médico será registrado o CRM, nome e especialidade(s). O tramento a ser iniciado terá a sua identificação própria dentro do sistema, e cada tratamento deve conter o paciente especificado, o médico responsável pelo tratamento, a doença a ser tratada, os medicamentos a serem usados, a data de inicio e fim do tratamento e em qual hospital estará ocorrendo o processo. É importante lembrar que o sistema deve tratar o fato do médico ter uma ou mais especialidades (no máximo 3), assim como um tratamento pode ter mais de um medicamento sendo usado nele (no máximo 5). 
+> O sistema “Tratamento Efetivo” terá como usuários principais os pacientes e médicos. Será fornecido a esses usuários a possibilidade de registro no sistema. O paciente terá o seu nome, peso, altura, data de nascimento, cpf e endereço registrado no sistema, enquanto do médico será registrado o CRM, estado pertencente, nome e especialidade(s). O tramento a ser iniciado terá a sua identificação própria dentro do sistema, e cada tratamento deve conter o paciente especificado, o médico responsável pelo tratamento, a doença a ser tratada, os medicamentos a serem usados, a data de inicio e fim do tratamento e em qual hospital estará ocorrendo o processo. É importante lembrar que o sistema deve tratar o fato do médico ter uma ou mais especialidades, assim como um tratamento pode ter mais de um medicamento sendo usado nele. O sistema deve saber o nome da rua que o paciente mora e em qual bairro ela está localizada, e por consequência de qual estado e cidade esse bairro faz parte.
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
@@ -92,22 +92,22 @@ https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Tabela%20de%20dad
         COD_PACIENTE: Campo usado como chave primaria para o paciente em vez de colocar o CPF como primary key.
         COD_ENDERECO: Campo para especificar qual é o código do endereço do paciente na tabela endereco.
     
-    ESPECIALIDADE: Tabela que contém o registro das especialidades que podem pertencer aos médicos.
+    CAD_ESPECIALIDADE: Tabela que contém o registro das especialidades que podem pertencer aos médicos.
 
-    LISTA_ESPECIALIDADE: Será possível registrar para o médico até três especialidades, por isso a tabela lista_especialidade será a responsável por armazenar as possíveis especialidades que o médico venha ter.
+    ESPECIALIDADE: Será possível registrar para o médico até três especialidades, por isso a tabela lista_especialidade será a responsável por armazenar as possíveis especialidades que o médico venha ter.
         COD_LISTA: Campo que registra um código para ser usado como chave estrangeira na tabela medico, de modo que os médicos tenham uma lista de especialidade.
         PRIM_ESPECIALIDADE/SECU_ESPECIALIDADE/TERC_ESPECIALIDADE: Campos que contém o código de no máximo três especialidades distintas para o médico.
 
     MEDICO: Tabela para armazenar as informações do médicos, tais como o nome, o crm e sua lista de especialidades.
 
-    MEDICAMENTO: Tabela com o registro dos medicamentos que serão usados nos tratamentos.
+    CAD_MEDICAMENTO: Tabela com o registro dos medicamentos que serão usados nos tratamentos.
 
-    LISTA_MEDICAMENTO: Como pode ser usado mais de um medicamento em um tratamento, a tabela lista_medicamento serve para armazenar até 5 medicamentos onde serão vinculados depois a tabela tratamento através do um código.
+    MEDICAMENTO: Como pode ser usado mais de um medicamento em um tratamento, a tabela lista_medicamento serve para armazenar até 5 medicamentos onde serão vinculados depois a tabela tratamento através do um código.
         PRIM_COD/SEGU_COD/TERC_COD/QUART_COD/QUINT_COD: Campos que conterá até cinco códigos de medicamentos.
     
     HOSPITAL: Tabela que contém o registro do hospital o qual o tratamento estará sendo realizado.
 
-    DOENCA: Tabela usada para armazenar as doenças a serem tratadas.
+    INDISPOSICAO: Tabela usada para armazenar as doenças a serem tratadas, assim como atividades repassadas pelo médico, como fisioterapia.
 
     TRATAMENTO: Tabela com as informações de um tramento em andamento ou finalizado. Ela armazena também informações como o paciente que está realizando o tratamento e o hospital o qual o processo está sendo feito.
         LISTA_MEDICAMENTO: Campo com o código da lista de medicamento a serem usados no tratamento.
