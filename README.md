@@ -37,13 +37,9 @@ Baseado na necessidade de automatizar alguns serviços de saúde, o sistema ter�
 https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Tabela%20de%20dados.xlsx
 
 
-### 5.MODELO CONCEITUAL<br>
-    A) NOTACAO ENTIDADE RELACIONAMENTO 
- 
+### 5.MODELO CONCEITUAL<br> 
         
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Modelo_Conceitual2.png)
-    
-         
     
 #### 5.1 Validação do Modelo Conceitual
     Lixeira Inteligente: Jackson William, Lavinia Corteletti, Thiago Moreira,Vinicius Freitas 
@@ -117,7 +113,10 @@ https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Tabela%20de%20dad
         LISTA_MEDICAMENTO: Campo com o código da lista de medicamento a serem usados no tratamento.
         NUM_CRM: Campo com o código do CRM do médico.
         INICIO_TRAT e FIM_TRAT: Campo com a respectiva data de inicio e fim do tratamento.
+        
+### 6	MODELO LÓGICO<br>
 
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Modelo_Conceitual2.png)
 
 7	MODELO FÍSICO
 
