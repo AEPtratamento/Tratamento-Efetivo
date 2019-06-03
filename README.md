@@ -8,7 +8,7 @@ Integrantes do grupo<br>
 Ana Carolina: carolichimura24@gmail.com<br>
 Pedro Henrique: phcontas@hotmail.com<br>
 Emanuel Medeiros: market_live@outlook.com<br>
-Filipe Ribeiro: fillipefs.ribeiro@gmail.com<br>
+
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 >O sistema "Tratamento Efetivo" é centrado em ofececer meios para melhorar a vida de pessoas que precisam utilizar o sistema de saúde. Apesar dos constantes avanços que a ciência obtem na área da saúde, diversos serviços prestados e oferecidos por hospitais continuam sendo realizados de modo manual.
