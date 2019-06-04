@@ -154,45 +154,47 @@ c) As 5 principais tabelas do sistema são:
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS
 
-9.1 - SELECT * FROM Paciente
-SELECT * FROM Endereco
-SELECT * FROM Estado
-SELECT * FROM Cidade
-SELECT * FROM Bairro
-SELECT * FROM Doenca
-SELECT * FROM Medicos
-SELECT * FROM Especialidades
-SELECT * FROM Hospitais
-SELECT * FROM Tratamento
-SELECT * FROM Medicamentos
-SELECT * FROM M Rua
+9.1 - SELECT * FROM PACIENTE; <br>
+SELECT * FROM ENDERECO <br>
+SELECT * FROM ESTADO <br>
+SELECT * FROM CIDADE <br>
+SELECT * FROM BAIRRO <br>
+SELECT * FROM INDISPOSICAO <br>
+SELECT * FROM MEDICO <br>
+SELECT * FROM ESPECIALIDADE <br>
+SELECT * FROM HOSPITAL <br>
+SELECT * FROM TRATAMENTO <br>
+SELECT * FROM MEDICAMENTO <br>
+SELECT * FROM RUA <br>
+SELECT * FROM CAD_MEDICAMENTO <br>
+SELECT * FROM CAD_ESPECIALIDADE <br>
 
 9.2 - 
-SELECT * FROM Médicos where cod_listpec = 1;
-SELECT nome_paciente,peso,altura FROM Paciente WHERE cod_paciente = 4;
-SELECT  cod_paciente FROM Tratamento WHERE cod_tratamento  1;
-SELECT crm FROM Médicos WHERE uf = 27;
+SELECT * FROM MEDICO WHERE cod_listpec = 1;
+SELECT nome_paciente,peso,altura FROM PACIENTE WHERE cod_paciente = 4;
+SELECT  cod_paciente FROM TRATAMENTO WHERE cod_tratamento  1;
+SELECT crm FROM MEDICO WHERE uf = 27;
 
 
 9.3 - a)
-SELECT * FROM Médicos WHERE cod_listpec = 7 AND uf = 27;
-SELECT nome_paciente FROM Paciente WHERE  peso = 60 OR altura = 1.80;
-SELECT cod_paciente FROM Tratamento WHERE fim_trat IS NOT NULL; 
-SELECT cod_bairro FROM Bairro WHERE cod_estado = 21 AND cod_cidade = 1;
-SELECT num_crm FROM Tratamento WHERE uf_medico = 33 OR cod_doenca = 52
+SELECT * FROM MEDICO WHERE cod_listpec = 7 AND uf = 27;
+SELECT nome_paciente FROM PACIENTE WHERE  peso = 60 OR altura = 1.80;
+SELECT cod_paciente FROM TRATAMENTO WHERE fim_trat IS NOT NULL; 
+SELECT cod_bairro FROM BAIRRO WHERE cod_estado = 21 AND cod_cidade = 1;
+SELECT num_crm FROM TRATAMENTO WHERE uf_medico = 33 OR cod_doenca = 52
 
 
 b) 
-SELECT * FROM Paciente WHERE cod_endereco > 40;
-SELECT nome_bairro FROM Bairro WHERE cod_bairro < 50;
-SELECT medicamento FROM Medicamentos WHERE cod_medicamento = 5;
-SELECT hospital FROM Hospitais WHERE cod_hospital > 100;
+SELECT * FROM PACIENTE WHERE cod_endereco > 40;
+SELECT nome_bairro FROM BAIRRO WHERE cod_bairro < 50;
+SELECT medicamento FROM CAD_MEDICAMENTO WHERE cod_medicamento = 5;
+SELECT hospital FROM HOSPITAL WHERE cod_hospital > 100;
 
 c) 
-ALTER TABLE Paciente RENAME nome_paciente TO nome_do_paciente;
-ALTER TABLE Tratamento RENAME cod_tratamento TO cod_trat;
-ALTER TABLE Medicos RENAME nome_medico TO medico;
-ALTER TABLE Medicos RENAME uf TO uniao_federativa;
+ALTER TABLE PACIENTE RENAME nome_paciente TO nome_do_paciente;
+ALTER TABLE TRATAMENTO RENAME cod_tratamento TO cod_trat;
+ALTER TABLE MEDICO RENAME nome_medico TO medico;
+ALTER TABLE MEDICO RENAME uf TO uniao_federativa;
 
 
 
