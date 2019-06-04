@@ -169,32 +169,32 @@ SELECT * FROM RUA <br>
 SELECT * FROM CAD_MEDICAMENTO <br>
 SELECT * FROM CAD_ESPECIALIDADE <br>
 
-9.2 - 
-SELECT * FROM MEDICO WHERE cod_listpec = 1;
-SELECT nome_paciente,peso,altura FROM PACIENTE WHERE cod_paciente = 4;
-SELECT  cod_paciente FROM TRATAMENTO WHERE cod_tratamento  1;
-SELECT crm FROM MEDICO WHERE uf = 27;
+9.2 - <br>
+SELECT * FROM MEDICO WHERE cod_listpec = 1;<br>
+SELECT nome_paciente,peso,altura FROM PACIENTE WHERE cod_paciente = 4;<br>
+SELECT  cod_paciente FROM TRATAMENTO WHERE cod_tratamento  1;<br>
+SELECT crm FROM MEDICO WHERE uf = 27;<br>
 
 
-9.3 - a)
-SELECT * FROM MEDICO WHERE cod_listpec = 7 AND uf = 27;
-SELECT nome_paciente FROM PACIENTE WHERE  peso = 60 OR altura = 1.80;
-SELECT cod_paciente FROM TRATAMENTO WHERE fim_trat IS NOT NULL; 
-SELECT cod_bairro FROM BAIRRO WHERE cod_estado = 21 AND cod_cidade = 1;
-SELECT num_crm FROM TRATAMENTO WHERE uf_medico = 33 OR cod_doenca = 52
+9.3 - a)<br>
+SELECT * FROM MEDICO WHERE cod_listpec = 7 AND uf = 27;<br>
+SELECT nome_paciente FROM PACIENTE WHERE  peso = 60 OR altura = 1.80;<br>
+SELECT cod_paciente FROM TRATAMENTO WHERE fim_trat IS NOT NULL; <br>
+SELECT cod_bairro FROM BAIRRO WHERE cod_estado = 21 AND cod_cidade = 1;<br>
+SELECT num_crm FROM TRATAMENTO WHERE uf_medico = 33 OR cod_doenca = 52<br>
 
 
-b) 
-SELECT * FROM PACIENTE WHERE cod_endereco > 40;
+b) <br>
+SELECT * FROM PACIENTE WHERE cod_endereco > 40;<br>
 SELECT nome_bairro FROM BAIRRO WHERE cod_bairro < 50;
-SELECT medicamento FROM CAD_MEDICAMENTO WHERE cod_medicamento = 5;
-SELECT hospital FROM HOSPITAL WHERE cod_hospital > 100;
+SELECT medicamento FROM CAD_MEDICAMENTO WHERE cod_medicamento = 5;<br>
+SELECT hospital FROM HOSPITAL WHERE cod_hospital > 100;<br>
 
-c) 
-ALTER TABLE PACIENTE RENAME nome_paciente TO nome_do_paciente;
-ALTER TABLE TRATAMENTO RENAME cod_tratamento TO cod_trat;
-ALTER TABLE MEDICO RENAME nome_medico TO medico;
-ALTER TABLE MEDICO RENAME uf TO uniao_federativa;
+c) <br>
+ALTER TABLE PACIENTE RENAME nome_paciente TO nome_do_paciente;<br>
+ALTER TABLE TRATAMENTO RENAME cod_tratamento TO cod_trat;<br>
+ALTER TABLE MEDICO RENAME nome_medico TO medico;<br>
+ALTER TABLE MEDICO RENAME uf TO uniao_federativa;<br>
 
 
 
