@@ -197,6 +197,21 @@ ALTER TABLE MEDICO RENAME nome_medico TO medico;<br>
 ALTER TABLE MEDICO RENAME uf TO uniao_federativa;<br>
 
 
+9.4 - a)<br>
+
+SELECT cod_paciente FROM PACIENTE WHERE nome_paciente ILIKE  'P%';<br>
+SELECT crm FROM MEDICO WHERE nome_medico LIKE  '%A';<br>
+SELECT cod_estado FROM ESTADO WHERE nome_estado ILIKE  'R%';<br>
+SELECT nome_bairro FROM BAIRRO WHERE nome_bairro LIKE  'J%';<br>
+SELECT * FROM PACIENTE WHERE nome_paciente LIKE '%A%';<br>
+SELECT cod_medico FROM MEDICO WHERE nome_medico ILIKE 'c%';<br>
+SELECT cod_bairro FROM RUA WHERE nome_rua LIKE 'O%';<br>
+SELECT cod_espec FROM TRATAMENTO WHERE nome_especialidade ILIKE '%N';<br>
+SELECT cod_medicamento FROM CAD_MEDICAMENTO WHERE medicamento LIKE '%z%'<br>
+
+b)<br> SELECT data_nascimento FROM PACIENTE;<br>
+SELECT inicio_trat FROM TRATAMENTO;<br>
+SELECT fim_trat FROM TRATAMENTO;<br>
 
 
 
