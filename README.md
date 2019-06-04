@@ -6,7 +6,7 @@ Trabalho desenvolvido durante a disciplina de BD1
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
 Ana Carolina: carolichimura24@gmail.com<br>
-Pedro Henrique: phcontas@hotmail.com<br>
+Pedro Henrique Moura: phcontas@hotmail.com<br>
 Emanuel Medeiros: market_live@outlook.com<br>
 
 
