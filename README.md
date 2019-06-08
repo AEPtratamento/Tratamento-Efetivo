@@ -3,26 +3,26 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 # Sumário
 
-### 1. COMPONENTES<br>
+## 1. COMPONENTES<br>
 Integrantes do grupo<br>
 Ana Carolina: carolichimura24@gmail.com<br>
 Pedro Henrique Moura: phcontas@hotmail.com<br>
 Emanuel Medeiros: market_live@outlook.com<br>
 
 
-### 2.INTRODUÇÃO E MOTIVAÇAO<br>
+## 2.INTRODUÇÃO E MOTIVAÇAO<br>
 >O sistema "Tratamento Efetivo" é centrado em ofececer meios para melhorar a vida de pessoas que precisam utilizar o sistema de saúde. Apesar dos constantes avanços que a ciência obtem na área da saúde, diversos serviços prestados e oferecidos por hospitais continuam sendo realizados de modo manual.
 Baseado na necessidade de automatizar alguns serviços de saúde, o sistema terá como objetivo fornecer dados e informações que auxilie os pacientes a obterem informações de tratamentos e exames que estão sendo realizados ou que foram finalizados. Assim como os pacientes, os médicos poderão visualizar também os tratamentos em que ele faz parte. Para que o sistema funcione de forma adequada é preciso permitir o registro de pacientes, médicos, exames, hospitais, medicamentos e doenças, tais informações são fundamentais para completar os dados de um tratamento que será vinculado no sistema.  O sistema deverá gerar relatórios de modo que mostre informações geradas no sistema de forma didática.
 
-### 3.MINI-MUNDO <br>
+## 3.MINI-MUNDO <br>
 
 > O sistema “Tratamento Efetivo” terá como usuários principais os pacientes e médicos. Será fornecido a esses usuários a possibilidade de registro no sistema. O paciente terá o seu nome, peso, altura, data de nascimento, cpf e endereço registrado no sistema, enquanto do médico será registrado o CRM, estado pertencente, nome e especialidade(s). O tramento a ser iniciado terá a sua identificação própria dentro do sistema, e cada tratamento deve conter o paciente especificado, o médico responsável pelo tratamento, a doença a ser tratada, os medicamentos a serem usados, a data de inicio e fim do tratamento e em qual hospital estará ocorrendo o processo. É importante lembrar que o sistema deve tratar o fato do médico ter uma ou mais especialidades, assim como um tratamento pode ter mais de um medicamento sendo usado nele. O sistema deve saber o nome da rua que o paciente mora e em qual bairro ela está localizada, e por consequência de qual estado e cidade esse bairro faz parte.
 
-### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
+## 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
 ![Arquivo PDF do Protótipo Balsamiq feito para o Sistema Tratamento Efetivo](https://github.com/Pedro-Henrique-Moura/Tratamento-Efetivo/blob/master/Telas%20projeto%20BD1%20v3.0.pdf)
 
-#### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
+### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     
 > O Sistema Tratamento Efetivo precisa inicialmente dos seguintes relatórios:
 * Relatório que mostre os tratamentos realizados pelo usuário de acordo com o periodo especfiicado por ele. Tal relatório deverá mostrar os tratamentos em andamentos que o paciente está realizando e qual doença está sendo tratada, junto com os médicamentos usados no processo.
@@ -32,20 +32,20 @@ Baseado na necessidade de automatizar alguns serviços de saúde, o sistema ter�
 * Relatório que compara o tempo de duração de cada tratamento de acordo com os registros das etapas no sistema. Com isso a pessoa terá uma noção do tempo gasto em cada tratamento e se for o caso ela poderá otimizar o tempo na próxima vez que for realizar um tratamento parecido.
  
  
-#### 4.2 TABELA DE DADOS DO SISTEMA:
+### 4.2 TABELA DE DADOS DO SISTEMA:
 
 https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Tabela%20de%20dados.xlsx
 
 
-### 5.MODELO CONCEITUAL<br> 
+## 5.MODELO CONCEITUAL<br> 
         
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Modelo_Conceitual2.png)
     
-#### 5.1 Validação do Modelo Conceitual
+### 5.1 Validação do Modelo Conceitual
     Lixeira Inteligente: Jackson William, Lavinia Corteletti, Thiago Moreira,Vinicius Freitas 
     Lista de Compras Online: Matheus Garcias, Letícia Teixeira, Júlia Miranda, Henrique Bastos
 
-#### 5.2 DECISÕES DE PROJETO
+### 5.2 DECISÕES DE PROJETO
 
     [Tabela TRAMENTO]: [Criação de tabela auxiliar para medicamentos]
     
@@ -74,7 +74,7 @@ https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Tabela%20de%20dad
      b) O número de chaves estrangeiras da tabela ENDERECO será menor, já que usando uma única tabela (RUA) conseguiremos deixar a tabela ENDERECO com três colunas a menos, tendo em vista que as informações relacionadas ao bairro, cidade e estado poderão ser encontradas na tabela rua. Conforme foi dito anteriormente, um dos objetivos é evitar também a repetição do nome da rua na tabela ENDERECO.
      
      
-   #### 5.3 DESCRIÇÃO DOS DADOS (Descrição das tabelas e dos campos, das tabelas, considerados de difícil compreensão)
+   ### 5.3 DESCRIÇÃO DOS DADOS (Descrição das tabelas e dos campos, das tabelas, considerados de difícil compreensão)
     ESTADO: Tabela que armazena os estados para serem inseridos na tabela endereco, cidade e bairro.
     
     CIDADE: Tabela que armazena os dados das cidades registradas no sistema. Ela terá relação com a tabela enderco e bairro.
@@ -114,30 +114,32 @@ https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Tabela%20de%20dad
         NUM_CRM: Campo com o código do CRM do médico.
         INICIO_TRAT e FIM_TRAT: Campo com a respectiva data de inicio e fim do tratamento.
         
-### 6	MODELO LÓGICO<br>
+## 6	MODELO LÓGICO<br>
 
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Modelo_Logico.png)
 
-### 7	MODELO FÍSICO
+## 7	MODELO FÍSICO
 
 Link modelo físico: https://drive.google.com/drive/folders/1HNHsZx3BMc_Wu5OZrmySoSfP8RM8vC5K
     
 
-### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS
+## 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS
 
-## 8.1 DETALHAMENTO DAS INFORMAÇÕES 
+### 8.1 DETALHAMENTO DAS INFORMAÇÕES 
 
 Link inserção de dados: https://drive.google.com/drive/folders/1HNHsZx3BMc_Wu5OZrmySoSfP8RM8vC5K
 
-## 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS
+### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS
 
 Link dos scripts agrupados e do backup para restauração
 
-## 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
+### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
 
 Link com a junção dos scripts, remoção de chave estrangeira, drop das tabelas e do backup para resturação: https://drive.google.com/drive/folders/1HNHsZx3BMc_Wu5OZrmySoSfP8RM8vC5K
 
-8.4 - a) Os principais fluxos de dados de informação são:
+### 8.4 Principais fluxos de informação e principais tabelas do sistema
+
+a) Os principais fluxos de dados de informação são:
 
 1 - Pacientes em tratamento,uma vez que o sistema tem foco nos usuários de hospitais e seus tratamentos.
 
