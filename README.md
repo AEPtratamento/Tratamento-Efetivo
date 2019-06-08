@@ -123,33 +123,41 @@ https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Tabela%20de%20dad
 Link modelo físico: https://drive.google.com/drive/folders/1HNHsZx3BMc_Wu5OZrmySoSfP8RM8vC5K
     
 
-
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS
 
+## 8.1 DETALHAMENTO DAS INFORMAÇÕES 
+
+Link inserção de dados: https://drive.google.com/drive/folders/1HNHsZx3BMc_Wu5OZrmySoSfP8RM8vC5K
+
+## 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS
+
+Link dos scripts agrupados e do backup para restauração
+
+## 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
+
+Link com a junção dos scripts, remoção de chave estrangeira, drop das tabelas e do backup para resturação: https://drive.google.com/drive/folders/1HNHsZx3BMc_Wu5OZrmySoSfP8RM8vC5K
 
 8.4 - a) Os principais fluxos de dados de informação são:
 
-1-Pacientes em tratamento,uma vez que o sistema tem foco nos usuários de hospitais e seus tratamentos.
+1 - Pacientes em tratamento,uma vez que o sistema tem foco nos usuários de hospitais e seus tratamentos.
 
-2 - Médicos que auxiliam no tratamento dos pacientes,desde a primeira consulta até o fim do tratamento.
+2 - Endereço que o paciente mora, tendo em vista que há diversos relacionamentos na criação do endereço do paciente.
 
-3 -  Por fim,temos a tabela de tratamento,na qual apartir de um código obtemos todas as informações sobre o tratamento de um paciente,
-visando simplificar e tornar dinâmico o sistema.
+3 -  Na tabela de tratamento apartir de um código obtemos todas as informações sobre o tratamento de um paciente no sistema.
 
 b) As tabelas que conterão mais dados no nosso sistema são:
 
 1 - Paciente
-2 - Médico
 3 - Endereço
 4 - Tratamento
 
 c) As 5 principais tabelas do sistema são:
 
 1 - Paciente
-2 - Médico
-3 - Endereço
+2 - Medico
+3 - Endereco
 4 - Tratamento
-5 - Infermidade
+5 - Indisposicao
 
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS
