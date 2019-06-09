@@ -180,25 +180,25 @@ SELECT * FROM CAD_MEDICAMENTO <br>
 SELECT * FROM CAD_ESPECIALIDADE <br>
 
 9.2 - <br>
-SELECT * FROM MEDICO WHERE cod_listpec = 1;<br>
+SELECT * FROM MEDICO WHERE cod_medico = 21;<br>
 SELECT nome_paciente,peso,altura FROM PACIENTE WHERE cod_paciente = 4;<br>
-SELECT  cod_paciente FROM TRATAMENTO WHERE cod_tratamento  1;<br>
-SELECT crm FROM MEDICO WHERE uf = 27;<br>
+SELECT cod_paciente,ini_trat,fim_trat FROM TRATAMENTO WHERE cod_tratamento =  1;<br>
+SELECT nome_medico,crm FROM MEDICO WHERE cod_estado = 27;<br>
 
 
 9.3 - a)<br>
-SELECT * FROM MEDICO WHERE cod_listpec = 7 AND uf = 27;<br>
+SELECT * FROM MEDICO WHERE cod_medico = 21 AND cod_estado = 27;<br>
 SELECT nome_paciente FROM PACIENTE WHERE  peso = 60 OR altura = 1.80;<br>
 SELECT cod_paciente FROM TRATAMENTO WHERE fim_trat IS NOT NULL; <br>
-SELECT cod_bairro FROM BAIRRO WHERE cod_estado = 21 AND cod_cidade = 1;<br>
-SELECT num_crm FROM TRATAMENTO WHERE uf_medico = 33 OR cod_doenca = 52<br>
+SELECT cod_bairro FROM BAIRRO WHERE cod_cidade = 1 AND bairro = 'Jardim da Penha';<br>
+SELECT cod_tratamento,cod_medico,ini_trat FROM TRATAMENTO WHERE cod_paciente =3 OR cod_indisposicao = 10;<br>
 
 
 b) <br>
-SELECT * FROM PACIENTE WHERE cod_endereco > 40;<br>
-SELECT nome_bairro FROM BAIRRO WHERE cod_bairro < 50;
+SELECT * FROM PACIENTE WHERE cod_end > 40;<br>
+SELECT bairro FROM BAIRRO WHERE cod_bairro < 50;<br>
 SELECT medicamento FROM CAD_MEDICAMENTO WHERE cod_medicamento = 5;<br>
-SELECT hospital FROM HOSPITAL WHERE cod_hospital > 100;<br>
+SELECT hospital FROM HOSPITAL WHERE cod_hospital > 77;<br>
 
 c) <br>
 ALTER TABLE PACIENTE RENAME nome_paciente TO nome_do_paciente;<br>
