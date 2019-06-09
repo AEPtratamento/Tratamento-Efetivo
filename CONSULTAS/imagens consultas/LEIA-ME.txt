@@ -1,0 +1,5 @@
+* As imagens de cada tópico do trabalho estão separada de acordo com o modelo estabelecido pelo professor.
+
+* Por exemplo, prints das consultas do tópico 9.5 estará na pasta 9.5, e assim por diante.
+
+Obs: Na pasta 9.5 há o antes e depois de todos updates e deletes realizados. No caso, tem um print da tabela normal e depois tem outro depois do update ou delete terem sido executados.
