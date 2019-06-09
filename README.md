@@ -164,7 +164,8 @@ c) As 5 principais tabelas do sistema são:
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS
 
-9.1 - SELECT * FROM PACIENTE; <br>
+## 9.1 - 
+SELECT * FROM PACIENTE; <br>
 SELECT * FROM ENDERECO <br>
 SELECT * FROM ESTADO <br>
 SELECT * FROM CIDADE <br>
@@ -179,14 +180,14 @@ SELECT * FROM RUA <br>
 SELECT * FROM CAD_MEDICAMENTO <br>
 SELECT * FROM CAD_ESPECIALIDADE <br>
 
-9.2 - <br>
+## 9.2 - <br>
 SELECT * FROM MEDICO WHERE cod_medico = 21;<br>
 SELECT nome_paciente,peso,altura FROM PACIENTE WHERE cod_paciente = 4;<br>
 SELECT cod_paciente,ini_trat,fim_trat FROM TRATAMENTO WHERE cod_tratamento =  1;<br>
 SELECT nome_medico,crm FROM MEDICO WHERE cod_estado = 27;<br>
 
 
-9.3 - a)<br>
+## 9.3 - a)<br>
 SELECT * FROM MEDICO WHERE cod_medico = 21 AND cod_estado = 27;<br>
 SELECT nome_paciente FROM PACIENTE WHERE  peso = 60 OR altura = 1.80;<br>
 SELECT cod_paciente FROM TRATAMENTO WHERE fim_trat IS NOT NULL; <br>
@@ -207,7 +208,7 @@ ALTER TABLE MEDICO RENAME nome_medico TO medico;<br>
 ALTER TABLE MEDICO RENAME uf TO uniao_federativa;<br>
 
 
-9.4 - a)<br>
+## 9.4 - a)<br>
 
 SELECT cod_paciente FROM PACIENTE WHERE nome_paciente ILIKE  'P%';<br>
 SELECT crm FROM MEDICO WHERE nome_medico LIKE  '%A';<br>
@@ -223,6 +224,8 @@ b)<br> SELECT data_nascimento FROM PACIENTE;<br>
 SELECT inicio_trat FROM TRATAMENTO;<br>
 SELECT fim_trat FROM TRATAMENTO;<br>
 
+## 9.5 - UPDATE E DELETE
 
+Link das consultas: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.6%20-%20JUN%C3%87%C3%83O%20COM%20TODAS%20TABELAS.sql
 
 
