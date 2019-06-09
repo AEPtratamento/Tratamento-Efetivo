@@ -27,8 +27,8 @@ Baseado na necessidade de automatizar alguns serviços de saúde, o sistema ter�
 > O Sistema Tratamento Efetivo precisa inicialmente dos seguintes relatórios:
 * Relatório que mostre os tratamentos realizados pelo usuário de acordo com o periodo especfiicado por ele. Tal relatório deverá mostrar os tratamentos em andamentos que o paciente está realizando e qual doença está sendo tratada, junto com os médicamentos usados no processo.
 * Relatório que informe os respectivos médicos que foram responsáveis por determinados tratamentos, ou seja, será retornada os tratamento que um médico é responsável.
-* Relatório que mostre quantos tratamentos está sendo realizado (em andamento) em determinado hospital.
-* Relatório que deve estar especificado quais tratamento foram finalizados em determinado hospital.
+* Relatório que mostre os hospitais que possui tratamentos em andamento;
+* Relatório que deve mostrar em quais hospitais os tratamentos foram finalizados.
 * Relatório que compara o tempo de duração de cada tratamento de acordo com os registros das etapas no sistema. Com isso a pessoa terá uma noção do tempo gasto em cada tratamento e se for o caso ela poderá otimizar o tempo na próxima vez que for realizar um tratamento parecido.
  
  
