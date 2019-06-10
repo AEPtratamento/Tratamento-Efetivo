@@ -166,8 +166,8 @@ c) As 5 principais tabelas do sistema são:
 4 - Tratamento
 5 - Indisposicao
 
-## Link com prints das consultas: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas
-## LEIA-ME sobre os prints: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/LEIA-ME.txt
+### Link com prints das consultas: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas
+### LEIA-ME sobre os prints: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/LEIA-ME.txt
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS
 
