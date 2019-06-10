@@ -121,6 +121,7 @@ https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Tabela%20de%20dad
 ## 7	MODELO FÍSICO
 
 Link modelo físico: https://drive.google.com/drive/folders/1HNHsZx3BMc_Wu5OZrmySoSfP8RM8vC5K
+Link GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/7%20-%20MODELO%20F%C3%8DSICO.sql
     
 
 ## 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS
@@ -129,13 +130,17 @@ Link modelo físico: https://drive.google.com/drive/folders/1HNHsZx3BMc_Wu5OZrmy
 
 Link inserção de dados: https://drive.google.com/drive/folders/1HNHsZx3BMc_Wu5OZrmySoSfP8RM8vC5K
 
+Link GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/8.1%20-%20DETALHAMENTO%20DAS%20INFORMA%C3%87%C3%95ES.sql
+
 ### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS
 
-Link dos scripts agrupados e do backup para restauração
+Link GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/8.2%20-%20INCLUS%C3%83O%20DO%20SCRIPT%20PARA%20CRIA%C3%87%C3%83O%20DE%20TABELAS%20E%20INSER%C3%87%C3%83O%20DOS%20DADOS.sql
 
 ### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
 
 Link com a junção dos scripts, remoção de chave estrangeira, drop das tabelas e do backup para resturação: https://drive.google.com/drive/folders/1HNHsZx3BMc_Wu5OZrmySoSfP8RM8vC5K
+
+Link GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/8.3%20-%20INCLUS%C3%83O%20DO%20SCRIPT%20PARA%20EXCLUS%C3%83O%20DE%20TABELAS%20EXISTENTES%2C%20CRIA%C3%87%C3%83O%20DE%20TABELA%20NOVAS%20E%20INSER%C3%87%C3%83O%20DOS%20DADOS.sql
 
 ### 8.4 Principais fluxos de informação e principais tabelas do sistema
 
@@ -161,6 +166,8 @@ c) As 5 principais tabelas do sistema são:
 4 - Tratamento
 5 - Indisposicao
 
+## Link com prints das consultas: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas
+## LEIA-ME sobre os prints: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/LEIA-ME.txt
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS
 
@@ -226,6 +233,33 @@ SELECT fim_trat FROM TRATAMENTO;<br>
 
 ## 9.5 - UPDATE E DELETE
 
-Link das consultas: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.6%20-%20JUN%C3%87%C3%83O%20COM%20TODAS%20TABELAS.sql
+Link GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.6%20-%20JUN%C3%87%C3%83O%20COM%20TODAS%20TABELAS.sql
+
+Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.5
+
+## 9.6 - CONSULTAS COM JUNÇÃO E ORDENAÇÃO
+
+a) Link GIT (junção todas tabelas): https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.6%20-%20JUN%C3%87%C3%83O%20COM%20TODAS%20TABELAS.sql
+
+Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.6
+
+## 9.7 GROUP BY E FUNÇÕES DE AGRUPAMENTO 
+
+Link GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.7%20-%20GROUP%20BY%20E%20FUN%C3%87%C3%95ES%20DE%20AGRUPAMENTO.sql
+
+Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.7
+
+## 9.9 SELF JOIN E VIEW
+
+Link GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.9%20-%20SELF%20JOIN%20E%20VIEW.sql
+
+Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.9
+
+## 9.10 SUBCONSULTA
+
+Link GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.10%20-%20SUBCONSULTA.sql
+
+Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.10
+
 
 
