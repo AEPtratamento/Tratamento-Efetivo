@@ -228,4 +228,27 @@ SELECT fim_trat FROM TRATAMENTO;<br>
 
 Link das consultas: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.6%20-%20JUN%C3%87%C3%83O%20COM%20TODAS%20TABELAS.sql
 
+## 9.6 - CONSULTAS COM JUNÇÃO E ORDENAÇÃO
+
+a) Link GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.6%20-%20JUN%C3%87%C3%83O%20COM%20TODAS%20TABELAS.sql
+
+Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.6/1.png
+
+## 9.7 - CONSULTAS GROUP BY E FUNÇÕES DE AGRUPAMENTO
+
+Link GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.7%20-%20GROUP%20BY%20E%20FUN%C3%87%C3%95ES%20DE%20AGRUPAMENTO.sql
+
+Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.7
+
+## 9.9 - CONSULTAS COM SELF JOIN E VIEW
+
+Link GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.9%20-%20SELF%20JOIN%20E%20VIEW.sql
+
+Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.9
+
+## 9.10 - SUBCONSULTAS
+
+Link GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.10%20-%20SUBCONSULTA.sql
+
+Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.10
 
