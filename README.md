@@ -221,7 +221,7 @@ SELECT medicamento FROM CAD_MEDICAMENTO WHERE medicamento LIKE '%c%'<br>
 SELECT cod_medicamento FROM CAD_MEDICAMENTO WHERE medicamento LIKE '%z%'<br>
 
 b)<br> SELECT data_nascimento FROM PACIENTE;<br>
-SELECT inicio_trat FROM TRATAMENTO;<br>
+SELECT ini_trat FROM TRATAMENTO;<br>
 SELECT fim_trat FROM TRATAMENTO;<br>
 
 ## 9.5 - UPDATE E DELETE
