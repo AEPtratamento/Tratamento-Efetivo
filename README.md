@@ -234,6 +234,13 @@ a) Link GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CON
 
 Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.6/1.png
 
+b)
+
+Código:
+https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Join1.PNG
+
+Output:
+https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/TabelaJoin1.PNG
 ## 9.7 - CONSULTAS GROUP BY E FUNÇÕES DE AGRUPAMENTO
 
 Link GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.7%20-%20GROUP%20BY%20E%20FUN%C3%87%C3%95ES%20DE%20AGRUPAMENTO.sql
