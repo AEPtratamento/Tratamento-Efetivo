@@ -170,42 +170,11 @@ c) As 5 principais tabelas do sistema são:
 ## 9.2 -
 
 
-## 9.3 - a)<br>
-SELECT * FROM MEDICO WHERE cod_medico = 21 AND cod_estado = 27;<br>
-SELECT nome_paciente FROM PACIENTE WHERE  peso = 60 OR altura = 1.80;<br>
-SELECT cod_paciente FROM TRATAMENTO WHERE fim_trat IS NOT NULL; <br>
-SELECT cod_bairro FROM BAIRRO WHERE cod_cidade = 1 AND bairro = 'Jardim da Penha';<br>
-SELECT cod_tratamento,cod_medico,ini_trat FROM TRATAMENTO WHERE cod_paciente =3 OR cod_indisposicao = 10;<br>
+## 9.3 - 
 
 
-b) <br>
-SELECT * FROM PACIENTE WHERE cod_end > 40;<br>
-SELECT bairro FROM BAIRRO WHERE cod_bairro < 50;<br>
-SELECT medicamento FROM CAD_MEDICAMENTO WHERE cod_medicamento = 5;<br>
-SELECT hospital FROM HOSPITAL WHERE cod_hospital > 77;<br>
+## 9.4 - 
 
-c) <br>
-ALTER TABLE PACIENTE RENAME nome_paciente TO nome_do_paciente;<br>
-ALTER TABLE TRATAMENTO RENAME cod_tratamento TO cod_trat;<br>
-ALTER TABLE MEDICO RENAME nome_medico TO medico;<br>
-ALTER TABLE MEDICO RENAME uf TO uniao_federativa;<br>
-
-
-## 9.4 - a)<br>
-
-SELECT cod_paciente,nome_paciente FROM PACIENTE WHERE nome_paciente ILIKE 'P%';<br>
-SELECT crm_medico FROM MEDICO WHERE medico LIKE 'A%';<br>
-SELECT cod_estado FROM ESTADO WHERE estado ILIKE 'R%';<br>
-SELECT bairro FROM BAIRRO WHERE bairro LIKE 'J%';<br>
-SELECT * FROM PACIENTE WHERE nome_paciente LIKE '%A%';<br>
-SELECT cod_medico FROM MEDICO WHERE medico ILIKE 'c%';<br>
-SELECT cod_bairro FROM RUA WHERE rua LIKE 'R%';<br>
-SELECT medicamento FROM CAD_MEDICAMENTO WHERE medicamento LIKE '%c%'<br>
-SELECT cod_medicamento FROM CAD_MEDICAMENTO WHERE medicamento LIKE '%z%'<br>
-
-b)<br> SELECT data_nascimento FROM PACIENTE;<br>
-SELECT ini_trat FROM TRATAMENTO;<br>
-SELECT fim_trat FROM TRATAMENTO;<br>
 
 ## 9.5 - UPDATE E DELETE
 
