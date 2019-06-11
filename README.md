@@ -235,19 +235,26 @@ a) Link GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CON
 Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.6/1.png
 
 b)
-Join com informações sobre o Tratamento do Paciente:
+Consulta com informações do Tratamento do Paciente:
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Join%201.PNG)
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/TabelaJoin%201.PNG)
 
 
-Join com as informações sobre a localidade do Paciente:
+Consulta com as informações da localidade do Paciente:
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Join2.PNG)
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/TabelaJoin2.PNG)
 
 
-Join com as infromações do Médico:
+Consulta com as informações do Médico:
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Join3.PNG)
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/TabelaJoin%203.PNG)
+
+Join com as informações do Médico e dos Tratamentos realizados por ele
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Join%204.PNG)
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/TabelaJoin%204.PNG)
+
+Consulta com as informações dos pacientes que ainda não finalizaram seu tratamento
+
 
 ## 9.7 - CONSULTAS GROUP BY E FUNÇÕES DE AGRUPAMENTO
 
@@ -255,11 +262,18 @@ Link GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSUL
 
 Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.7
 
+## 9.8 - CONSULTAS COM LEFT E RIGHT JOIN
+
+Consulta realizada para saber quais pacientes ainda não possuem tratamento.
+Consulta realizada para saber quais especialidades existem sem médicos cadastrados.
+
+
+
 ## 9.9 - CONSULTAS COM SELF JOIN E VIEW
 
-Link GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.9%20-%20SELF%20JOIN%20E%20VIEW.sql
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.9%20-%20SELF%20JOIN%20E%20VIEW.sql)
 
-Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.9
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.9)
 
 ## 9.10 - SUBCONSULTAS
 
