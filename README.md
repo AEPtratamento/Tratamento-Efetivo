@@ -249,11 +249,11 @@ Consulta com as informações do Médico:
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Join3.PNG)
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/TabelaJoin%203.PNG)
 
-Join com as informações do Médico e dos Tratamentos realizados por ele
+Consulta com as informações do Médico e dos Tratamentos realizados por ele:
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Join%204.PNG)
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/TabelaJoin%204.PNG)
 
-Consulta com as informações dos pacientes que ainda não finalizaram seu tratamento
+Consulta com as informações dos pacientes que ainda não finalizaram seu tratamento:
 
 
 ## 9.7 - CONSULTAS GROUP BY E FUNÇÕES DE AGRUPAMENTO
