@@ -214,7 +214,8 @@ Consulta com as informações do Médico e dos Tratamentos realizados por ele:
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/TabelaJoin%204.PNG)
 
 Consulta com as informações dos pacientes que ainda não finalizaram seu tratamento:
-
+![Alt text]https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/join%205.PNG
+![Alt text]https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/TabelaJoin%205.PNG
 
 ## 9.7 - CONSULTAS GROUP BY E FUNÇÕES DE AGRUPAMENTO
 
