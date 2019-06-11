@@ -271,9 +271,9 @@ Consulta realizada para saber quais especialidades existem sem médicos cadastra
 
 ## 9.9 - CONSULTAS COM SELF JOIN E VIEW
 
-![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.9%20-%20SELF%20JOIN%20E%20VIEW.sql)
+Link GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.9%20-%20SELF%20JOIN%20E%20VIEW.sql
 
-![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.9)
+Link Imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.9
 
 ## 9.10 - SUBCONSULTAS
 
