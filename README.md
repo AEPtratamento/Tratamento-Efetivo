@@ -238,6 +238,15 @@ b)
 Join com informações sobre o Tratamento do Paciente:
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Join%201.PNG)
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/TabelaJoin%201.PNG)
+
+Join com as informações sobre a localidade do Paciente:
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Join2.PNG)
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/TabelaJoin2.PNG)
+
+Join com as infromações do Médico:
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Join3.PNG)
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/TabelaJoin%203.PNG)
+
 ## 9.7 - CONSULTAS GROUP BY E FUNÇÕES DE AGRUPAMENTO
 
 Link GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.7%20-%20GROUP%20BY%20E%20FUN%C3%87%C3%95ES%20DE%20AGRUPAMENTO.sql
