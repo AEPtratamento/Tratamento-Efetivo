@@ -165,13 +165,19 @@ c) As 5 principais tabelas do sistema são:
 ### 9	TABELAS E PRINCIPAIS CONSULTAS
 
 ## 9.1 - 
+ Link Consultas: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/9.1%20-%20CONSULTAS%20DAS%20TABELAS%20COM%20TODOS%20OS%20DADOS%20INSERIDOS.sql: 
 
+Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.1
 
 ## 9.2 -
+Link Consultas: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/9.2%20-%20CONSULTAS%20DAS%20TABELAS%20COM%20FILTROS%20WHERE.sql
 
+Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.2
 
 ## 9.3 - 
+Link Consultas: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/9.3%20-%20CONSULTAS%20QUE%20USAM%20OPERADORES%20L%C3%93GICOS%2C%20ARITM%C3%89TICOS%20E%20TABELAS%20OU%20CAMPOS%20RENOMEADOS.sql
 
+Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.3
 
 ## 9.4 - 
 
