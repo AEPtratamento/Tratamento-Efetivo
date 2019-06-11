@@ -239,9 +239,11 @@ Join com informações sobre o Tratamento do Paciente:
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Join%201.PNG)
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/TabelaJoin%201.PNG)
 
+
 Join com as informações sobre a localidade do Paciente:
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Join2.PNG)
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/TabelaJoin2.PNG)
+
 
 Join com as infromações do Médico:
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Join3.PNG)
