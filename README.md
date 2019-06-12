@@ -1,3 +1,4 @@
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.7/1.png)
 # TRABALHO 01: Tratamento Efetivo
 Trabalho desenvolvido durante a disciplina de BD1
 
