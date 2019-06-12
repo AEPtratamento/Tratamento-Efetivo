@@ -226,9 +226,12 @@ Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/maste
 ## 9.8 - CONSULTAS COM LEFT E RIGHT JOIN
 
 Consulta realizada para saber quais pacientes ainda não possuem tratamento.
-Consulta realizada para saber quais especialidades existem sem médicos cadastrados.
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/RightJoin.PNG)
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/TabelaRight.PNG)
 
-
+Consulta realizada para saber quais médicos não possuem especialidade.
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/LeftJOINimg.PNG)
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/leftJoin.PNG)
 
 ## 9.9 - CONSULTAS COM SELF JOIN E VIEW
 
