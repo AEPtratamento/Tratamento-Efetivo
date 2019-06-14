@@ -190,9 +190,9 @@ Link das consultas: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/mas
 
 ## 9.6 - CONSULTAS COM JUNÇÃO E ORDENAÇÃO
 
-a) Link GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.6%20-%20JUN%C3%87%C3%83O%20COM%20TODAS%20TABELAS.sql
+a) Link GIT com a instrução SQL: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.6%20-%20JUN%C3%87%C3%83O%20COM%20TODAS%20TABELAS.sql
 
-Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.6/1.png
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.6/1.png)
 
 b)
 Consulta com informações do Tratamento do Paciente:
