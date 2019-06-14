@@ -192,7 +192,9 @@ Link das consultas: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/mas
 
 a) Link GIT com a instrução SQL: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.6%20-%20JUN%C3%87%C3%83O%20COM%20TODAS%20TABELAS.sql
 
-![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.6/1.png)
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.6/1%20-%20Correcao.png)
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.6/2.png)
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.6/3.png)
 
 b)
 Consulta com informações do Tratamento do Paciente:
@@ -219,9 +221,25 @@ Consulta com as informações dos pacientes que ainda não finalizaram seu trata
 
 ## 9.7 - CONSULTAS GROUP BY E FUNÇÕES DE AGRUPAMENTO
 
-Link GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.7%20-%20GROUP%20BY%20E%20FUN%C3%87%C3%95ES%20DE%20AGRUPAMENTO.sql
+Link GIT com as intruções SQL: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.7%20-%20GROUP%20BY%20E%20FUN%C3%87%C3%95ES%20DE%20AGRUPAMENTO.sql
 
-Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.7
+Consulta com número de especialidades do médico
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.7/1.png)
+
+Consulta para verificar a idade média dos pacientes
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.7/2.png)
+
+Quantia de cidades por estado que estão registradas no sistema
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.7/3.png)
+
+Consulta para verificar quantos paciente não moram em apartamento/predio
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.7/4.png)
+
+Número de pacientes que possui o CEP em comum
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.7/5.png)
+
+Verificação de número de tratamentos finalizados
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.7/6.png)
 
 ## 9.8 - CONSULTAS COM LEFT E RIGHT JOIN
 
@@ -235,13 +253,39 @@ Consulta realizada para saber quais médicos não possuem especialidade.
 
 ## 9.9 - CONSULTAS COM SELF JOIN E VIEW
 
-Link GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.9%20-%20SELF%20JOIN%20E%20VIEW.sql
+Link GIT com as instruções SQL: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.9%20-%20SELF%20JOIN%20E%20VIEW.sql
 
-Link Imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.9
+Verificação para ver os médicos que possuem o ID igual ao código da especialidade no banco de dados
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.9/1.png)
+
+View para consultar os tratamentos que estão em andamento
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.9/2.png)
+
+View para consultar os médicos responsáveis de cada tratamento em andamento
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.9/3.png)
+
+View para consultar os tratamentos em andamento dos hospitais, dos que possuem tratamento em andamento
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.9/4.png)
+
+View para ver todos os tratamentos finalizados de acordo com o hospital
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.9/5.png)
+
+View para consultar quantos dias um tratamento durou
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.9/6.png)
+
+
+
+
 
 ## 9.10 - SUBCONSULTAS
 
-Link GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.10%20-%20SUBCONSULTA.sql
+Link GIT com as intruções SQL: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.10%20-%20SUBCONSULTA.sql
 
-Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.10
+Subconsulta para verificar todas especialidades que estão vinculadas a um médico no mínimo
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.10/1%20-%20atualizada.png)
 
+Usando subconsulta para consultar os tratamentos finalizados que possuem medicamentos registrados na tabela de cadastro de medicamento
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.10/2%20-%20atualizada.png)
+
+Usando subconsulta para verificar o nome dos médicos que participam ou participaram de algum tratamento
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.10/3%20-%20atualizada.png)
