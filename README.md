@@ -120,7 +120,7 @@ https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Tabela%20de%20dad
 
 ## 7	MODELO FÍSICO
 
-Link modelo físico: https://drive.google.com/drive/folders/1HNHsZx3BMc_Wu5OZrmySoSfP8RM8vC5K
+Link modelo físico: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/7%20-%20(ATUALIZADO)%20MODELO%20F%C3%8DSICO.sql
     
 
 ## 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS
@@ -131,11 +131,16 @@ Link inserção de dados: https://drive.google.com/drive/folders/1HNHsZx3BMc_Wu5
 
 ### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS
 
-Link dos scripts agrupados e do backup para restauração
+Link dos scripts agrupados:
+https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/8.2%20-%20(ATUALIZADO)%20INCLUS%C3%83O%20DO%20SCRIPT%20PARA%20CRIA%C3%87%C3%83O%20DE%20TABELAS%20E%20INSER%C3%87%C3%83O%20DOS%20DADOS.sql
+
+Backup: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/BACKUP%20TRATAMENTO%20EFETIVO
 
 ### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
 
-Link com a junção dos scripts, remoção de chave estrangeira, drop das tabelas e do backup para resturação: https://drive.google.com/drive/folders/1HNHsZx3BMc_Wu5OZrmySoSfP8RM8vC5K
+Link com a junção dos scripts, remoção de chave estrangeira, drop das tabelas e do backup para resturação: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/8.3%20-%20(ATUALIZADO)%20INCLUS%C3%83O%20DO%20SCRIPT%20PARA%20EXCLUS%C3%83O%20DE%20TABELAS%20EXISTENTES%2C%20CRIA%C3%87%C3%83O%20DE%20TABELA%20NOVAS%20E%20INSER%C3%87%C3%83O%20DOS%20DADOS.sql
+
+backup: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/BACKUP%20TRATAMENTO%20EFETIVO
 
 ### 8.4 Principais fluxos de informação e principais tabelas do sistema
 
@@ -317,3 +322,11 @@ Usando subconsulta para consultar os tratamentos finalizados que possuem medicam
 
 Usando subconsulta para verificar o nome dos médicos que participam ou participaram de algum tratamento
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.10/3%20-%20atualizada.png)
+
+## 10 - BACKUP DO BANCO DE DADOS (NA PASTA CONTEM BACKUPS ANTIGOS E ATUALIZADOS)
+
+Backup: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/BACKUP%20TRATAMENTO%20EFETIVO
+
+## 11 - INSTRUÇÕES PARA RESTAURAÇÃO 
+
+Instruções a serem seguidas: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/BACKUP%20TRATAMENTO%20EFETIVO/read%20me%20-%20atualizado.txt
