@@ -175,7 +175,7 @@ Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/maste
 Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.2
 
 ## 9.3 - 
-Link Consultas: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.3%20-%20CONSULTAS%20QUE%20USAM%20OPERADORES%20L%C3%93GICOS%2C%20ARITM%C3%89TICOS%20E%20TABELAS%20OU%20CAMPOS%20RENOMEADOS.sql
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Selects3.PNG)
 
 Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.3
 
