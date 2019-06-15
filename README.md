@@ -137,7 +137,7 @@ https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Script%20Agrupad
 
 ### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
 
-Link com a junção dos scripts, remoção de chave estrangeira, drop das tabelas e do backup para resturação: https://drive.google.com/drive/folders/1HNHsZx3BMc_Wu5OZrmySoSfP8RM8vC5K
+Link com a junção dos scripts, remoção de chave estrangeira, drop das tabelas e do backup para resturação: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/8.3_Script.txt
 
 ### 8.4 Principais fluxos de informação e principais tabelas do sistema
 
