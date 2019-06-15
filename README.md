@@ -165,7 +165,7 @@ c) As 5 principais tabelas do sistema são:
 ### 9	TABELAS E PRINCIPAIS CONSULTAS
 
 ## 9.1 - 
- Link Consultas:https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.1%20-%20CONSULTAS%20DAS%20TABELAS%20COM%20TODOS%20OS%20DADOS%20INSERIDOS.sql
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Selects.PNG)
 
 Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.1
 
