@@ -158,6 +158,7 @@ ALTER TABLE RUA ADD CONSTRAINT RUA_COD_BAIRRO_FKEY
     REFERENCES BAIRRO (cod_bairro) MATCH FULL
     ON UPDATE CASCADE ON DELETE CASCADE;
 
+
 insert into estado (cod_estado,estado) values (21,'Espirito Santo'),(10,'Pará'),
 (12,'Maranhão'),(30,'Pernambuco'),(22,'Rio Grande do Sul'),(63,'Paraná'),
 (27,'Rio de Janeiro'),(66,'Bahia'),(33,'Minas Gerais'),(11,'São Paulo'); 	
@@ -174,8 +175,8 @@ insert into rua (cod_bairro,rua,cod_rua) values (2,'Rua L',10),(5,'Rua N',20),
 (56,'Rua das Amoras',80),(13,'Rua J',90),(10,'Rua Morumbi',100);
 
 insert into endereco (cod_end,cod_rua,cep,num_complemento,num_residencia) values 
-(5,10,100001,null,10),(2,20,100002,202,350),(6,30,100002,null,1201),
-(8,40,100002,203,350),(58,50,100005,405,534),(63,60,100006,502,7),(1,70,100007,null,25),
+(5,10,100001,null,10),(2,20,100002,202,350),(6,30,100030,null,1201),
+(8,40,100040,203,350),(58,50,100005,405,534),(63,60,100006,502,7),(1,70,100007,null,25),
 (4,80,100008,520,520),(9,90,100009,1000,301),(22,100,100010,null,6969);
 
 insert into paciente (cod_paciente,nome_paciente,peso,altura,data_nascimento,cpf,cod_end) values 
@@ -193,23 +194,21 @@ insert into medico (cod_medico,nome_medico,crm,cod_estado) values
 (91,'Vinicius Marroco',211164,27),(101,'Sabrina Fantin',671241,21);
 
 insert into cad_especialidade (cod_especialidade,especialidade) values (1,'Clínico geral'),
-(7,'Radiologia'),(9,'Urologia'),(10,'Radioterapia'),(12,'Nutrologia'),
-(14,'Neurocirurgia'),(16,'Neurologia'),(13,'Oftamologia'),(21,'Psiquiatria');
+(2,'Pneumologia'),(3,'Neurologia'),(4,'Oftamologia'),(5,'Psiquiatria'),(6,'Pediatria'),(7,'Otorrinolaringologia');
 
 insert into especialidade (cod_especialidade,cod_medico) values (1,11),
-(5,21),(7,11),(9,41),(10,51),(12,61),(14,71),(16,81),(13,91),(21,21);
+(2,21),(2,31),(3,41),(7,51),(1,61),(6,71),(1,81),(4,91),(5,101);
 
 INSERT INTO CAD_MEDICAMENTO (cod_medicamento, medicamento)
 VALUES  (1,'Diclofenaco'),(2,'Aerolin/Berotec'),(3,'Cloridrato de Ciprofloxacino'),
 (4,'Alprazolam'),(5,'Vertizan'),(6,'Atenolol'),(7,'Ceftriaxona Sodica'),
-(8,'Oximetazolina/Fluticasona'),(9,'Colírio Maxitrol'),(10,'Fluoxetina'),;
+(8,'Oximetazolina/Fluticasona'),(9,'Colírio Maxitrol'),(10,'Fluoxetina');
 
 INSERT INTO HOSPITAL (cod_hospital, hospital)
 VALUES (10,'Hospital Vitória Apart'),(20,'Hospital São Camilo'),
 (30, 'Hospital São Domingos'),(40,'Hospital Regional Dantas Biao'),
 (50,'Clínica Viver Bem'),(60,'Hospital Santa Cruz'),(70,'Hospital São Lucas Copacabana'),
 (80,'Hospital Paineiras'),(90,'Hospital Santa Rosália'),(100,'Hospital Israelita Albert Einstein');
-INSERT INTO CAD_ESPECIALIDADE (COD_ESPECIALIDADE,ESPECIALIDADE) VALUES (5,'Medicina do Trabalho');
 
 INSERT INTO INDISPOSICAO (cod_indisposicao, indisposicao)
 VALUES(10,'Gripe'),(20,'Asma'),(30,'Pneumonia'),(40,'Insônia'),
