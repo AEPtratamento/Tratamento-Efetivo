@@ -170,7 +170,7 @@ c) As 5 principais tabelas do sistema são:
 Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.1
 
 ## 9.2 -
-Link Consultas:https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.2%20-%20CONSULTAS%20DAS%20TABELAS%20COM%20FILTROS%20WHERE.sql
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Slects2.PNG%20CONSULTAS%20DAS%20TABELAS%20COM%20FILTROS%20WHERE.sql)
 
 Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.2
 
