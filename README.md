@@ -131,7 +131,9 @@ Link inserção de dados: https://drive.google.com/drive/folders/1HNHsZx3BMc_Wu5
 
 ### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS
 
-Link dos scripts agrupados e do backup para restauração
+Link dos scripts agrupados e do backup para restauração:
+https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Script%20Agrupado.txt
+
 
 ### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
 
