@@ -180,7 +180,7 @@ Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/maste
 Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.3
 
 ## 9.4 -
-Link Consultas: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.4%20-%20CONSULTAS%20QUE%20USAM%20OPERADORES%20LIKE%20E%20DATAS.sql
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Selects4.PNG)
 
 Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.4
 
