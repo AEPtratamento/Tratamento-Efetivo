@@ -186,7 +186,7 @@ Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/maste
 
 ## 9.5 - UPDATE E DELETE
 
-Link das consultas: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.6%20-%20JUN%C3%87%C3%83O%20COM%20TODAS%20TABELAS.sql
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Select%205.PNG)
 
 ## 9.6 - CONSULTAS COM JUNÇÃO E ORDENAÇÃO
 
