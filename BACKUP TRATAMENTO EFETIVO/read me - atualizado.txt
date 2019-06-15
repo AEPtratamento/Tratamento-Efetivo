@@ -1,0 +1,9 @@
+1° Crie uma nova base de dados ou selecione o scrip do tópico 8.3 (DROP CONSTRAINT E DROP TABLE)
+
+2° Com o lado direito do mouse sobre a base de dados nova, vá em RESTORE
+
+3° Seleciona o diretório em que o backup está salvo
+
+4° Inicie a restauração clicando em restore.
+
+Obs: As consultas estão no GIT em Consultas ou na página inicial do Git.
