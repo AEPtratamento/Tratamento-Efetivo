@@ -190,7 +190,7 @@ Link das consultas: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/mas
 
 ## 9.6 - CONSULTAS COM JUNÇÃO E ORDENAÇÃO
 
-a) Link GIT com a instrução SQL: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.6%20-%20JUN%C3%87%C3%83O%20COM%20TODAS%20TABELAS.sql
+a) Link GIT com a instrução SQL do Join que une todas as tabelas: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.6%20-%20JUN%C3%87%C3%83O%20COM%20TODAS%20TABELAS.sql
 
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.6/1%20-%20Correcao.png)
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.6/2.png)
