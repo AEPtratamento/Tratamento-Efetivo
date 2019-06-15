@@ -16,7 +16,7 @@ Baseado na necessidade de automatizar alguns serviços de saúde, o sistema ter�
 
 ## 3.MINI-MUNDO <br>
 
-> O sistema “Tratamento Efetivo” terá como usuários principais os pacientes e médicos. Será fornecido a esses usuários a possibilidade de registro no sistema. O paciente terá o seu nome, peso, altura, data de nascimento, cpf e endereço registrado no sistema, enquanto do médico será registrado o CRM, estado pertencente, nome e especialidade(s). O tramento a ser iniciado terá a sua identificação própria dentro do sistema, e cada tratamento deve conter o paciente especificado, o médico responsável pelo tratamento, a doença a ser tratada, os medicamentos a serem usados, a data de inicio e fim do tratamento e em qual hospital estará ocorrendo o processo. É importante lembrar que o sistema deve tratar o fato do médico ter uma ou mais especialidades, assim como um tratamento pode ter mais de um medicamento sendo usado nele. O sistema deve saber o nome da rua que o paciente mora e em qual bairro ela está localizada, e por consequência de qual estado e cidade esse bairro faz parte.
+> O sistema “Tratamento Efetivo” terá como usuários principais os pacientes e médicos. Será fornecido a esses usuários a possibilidade de registro no sistema. O paciente terá o seu nome, sexo, peso, altura, data de nascimento, cpf e endereço registrado no sistema, enquanto do médico será registrado o CRM, estado pertencente, nome e especialidade(s). O tramento a ser iniciado terá a sua identificação própria dentro do sistema, e cada tratamento deve conter o paciente especificado, o médico responsável pelo tratamento, a doença a ser tratada, os medicamentos a serem usados, a data de inicio e fim do tratamento e em qual hospital estará ocorrendo o processo ou que foi finalizado. É importante lembrar que o sistema deve tratar o fato do médico ter uma ou mais especialidades, assim como um tratamento pode ter mais de um medicamento sendo usado nele. O sistema deve saber o nome da rua que o paciente mora e em qual bairro ela está localizada, e por consequência de qual estado e cidade esse bairro faz parte.
 
 ## 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
@@ -25,11 +25,11 @@ Baseado na necessidade de automatizar alguns serviços de saúde, o sistema ter�
 ### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     
 > O Sistema Tratamento Efetivo precisa inicialmente dos seguintes relatórios:
-* Relatório que mostre os tratamentos realizados pelo usuário de acordo com o periodo especfiicado por ele. Tal relatório deverá mostrar os tratamentos em andamentos que o paciente está realizando e qual doença está sendo tratada, junto com os médicamentos usados no processo.
-* Relatório que informe os respectivos médicos que foram responsáveis por determinados tratamentos, ou seja, será retornada os tratamento que um médico é responsável.
+* Relatório que informa a quantidade de pessoas realizando um determinado tipo de tratamento.
+* Relatório que retorna a quantos tratamentos foram finalizados nos hospitais que possuem tratamentos registrados.
 * Relatório que mostre os hospitais que possui tratamentos em andamento;
-* Relatório que deve mostrar em quais hospitais os tratamentos foram finalizados.
-* Relatório que compara o tempo de duração de cada tratamento de acordo com os registros das etapas no sistema. Com isso a pessoa terá uma noção do tempo gasto em cada tratamento e se for o caso ela poderá otimizar o tempo na próxima vez que for realizar um tratamento parecido.
+* Relatório contendo a média de duração do tratamentos das indisposições/doenças que possuem registro nos tratamentos finalizados.
+* Relatório que retorna o número de pessoas por tratamento registrado, e quantos medicamentos no total foram usados até o momento para tratar a doença/indisposição que está sendo tratada.
  
  
 ### 4.2 TABELA DE DADOS DO SISTEMA:
@@ -131,13 +131,11 @@ Link inserção de dados: https://drive.google.com/drive/folders/1HNHsZx3BMc_Wu5
 
 ### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS
 
-Link dos scripts agrupados e do backup para restauração:
-https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Script%20Agrupado.txt
-
+Link dos scripts agrupados e do backup para restauração
 
 ### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
 
-Link com a junção dos scripts, remoção de chave estrangeira, drop das tabelas e do backup para resturação: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/8.3_Script.txt
+Link com a junção dos scripts, remoção de chave estrangeira, drop das tabelas e do backup para resturação: https://drive.google.com/drive/folders/1HNHsZx3BMc_Wu5OZrmySoSfP8RM8vC5K
 
 ### 8.4 Principais fluxos de informação e principais tabelas do sistema
 
@@ -182,17 +180,17 @@ Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/maste
 Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.3
 
 ## 9.4 -
-![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Selects4.PNG)
+Link Consultas: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.4%20-%20CONSULTAS%20QUE%20USAM%20OPERADORES%20LIKE%20E%20DATAS.sql
 
 Link imagens GIT: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/CONSULTAS/imagens%20consultas/9.4
 
 ## 9.5 - UPDATE E DELETE
 
-![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Select%205.PNG)
+Link das consultas: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.6%20-%20JUN%C3%87%C3%83O%20COM%20TODAS%20TABELAS.sql
 
 ## 9.6 - CONSULTAS COM JUNÇÃO E ORDENAÇÃO
 
-a) Link GIT com a instrução SQL do Join que une todas as tabelas: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.6%20-%20JUN%C3%87%C3%83O%20COM%20TODAS%20TABELAS.sql
+a) Link GIT com a instrução SQL: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.6%20-%20JUN%C3%87%C3%83O%20COM%20TODAS%20TABELAS.sql
 
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.6/1%20-%20Correcao.png)
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.6/2.png)
@@ -275,9 +273,24 @@ View para ver todos os tratamentos finalizados de acordo com o hospital
 View para consultar quantos dias um tratamento durou
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.9/6.png)
 
+## 9.9 - CONSULTAS COM SELF JOIN E VIEW - RELATÓRIOS PRINCIPAIS DO SISTEMA
 
+Link GIT contendo as intruções SQL: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.9%20-%20SELF%20JOIN%20E%20VIEW%20-%20RELATORIOS%20PRINCIPAIS%20DO%20SISTEMA.sql
 
+View para consultar tratamentos em andamentos e a quantia de pacientes realizando esses tratamentos
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.9/11.png)
 
+View para consultar o número de tratamentos finalizados nos hospitais, separando por tipo de tramento
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.9/8.png)
+
+View para consultar o número de tratamentos que foram realizados em cada hospital
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.9/9.png)
+
+View para visualizar a média de duração dos tratamentos
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.9/12.png)
+
+View para consultar a relação do número de pessoas em cada tratamento com o número total de medicamentos em cada tratamento
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.9/10.png)
 
 ## 9.10 - SUBCONSULTAS
 
