@@ -29,7 +29,7 @@ Baseado na necessidade de automatizar alguns serviços de saúde, o sistema ter�
 * Relatório que retorna a quantos tratamentos foram finalizados nos hospitais que possuem tratamentos registrados.
 * Relatório que mostre os hospitais que possui tratamentos em andamento;
 * Relatório contendo a média de duração do tratamentos das indisposições/doenças que possuem registro nos tratamentos finalizados.
-* Relatório que retorna o número de pessoas por tratamento registrado, e quantos medicamentos no total foram usados até o momento para tratar a doença/indisposição que está sendo tratada.
+* Relatório que retorna o número de medicamentos usado por uma pessoa em cada tratamento que ela finalizou ou está fazendo.
  
  
 ### 4.2 TABELA DE DADOS DO SISTEMA:
@@ -39,7 +39,7 @@ https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Tabela%20de%20dad
 
 ## 5.MODELO CONCEITUAL<br> 
         
-![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Modelo_Conceitual2.png)
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/Modelo_Conceitual_tratamento_efetivo.png)
     
 ### 5.1 Validação do Modelo Conceitual
     Lixeira Inteligente: Jackson William, Lavinia Corteletti, Thiago Moreira,Vinicius Freitas 
@@ -116,7 +116,7 @@ https://github.com/Ana-Ichimura/Tratamento-Efetivo/blob/master/Tabela%20de%20dad
         
 ## 6	MODELO LÓGICO<br>
 
-![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/Modelo_Logico.png)
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/L%C3%B3gico_tratamento_efetivo.png)
 
 ## 7	MODELO FÍSICO
 
@@ -127,20 +127,20 @@ Link modelo físico: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/ma
 
 ### 8.1 DETALHAMENTO DAS INFORMAÇÕES 
 
-Link inserção de dados: https://drive.google.com/drive/folders/1HNHsZx3BMc_Wu5OZrmySoSfP8RM8vC5K
+Link inserção de dados: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/Consultas%20atualizadas/8.1%20-%20DETALHAMENTO%20DAS%20INFORMA%C3%87%C3%95ES.sql
 
 ### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS
 
 Link dos scripts agrupados:
-https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/8.2%20-%20(ATUALIZADO)%20INCLUS%C3%83O%20DO%20SCRIPT%20PARA%20CRIA%C3%87%C3%83O%20DE%20TABELAS%20E%20INSER%C3%87%C3%83O%20DOS%20DADOS.sql
+https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/Consultas%20atualizadas/8.2%20-%20(ATUALIZADO)%20INCLUS%C3%83O%20DO%20SCRIPT%20PARA%20CRIA%C3%87%C3%83O%20DE%20TABELAS%20E%20INSER%C3%87%C3%83O%20DOS%20DADOS.sql
 
-Backup: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/BACKUP%20TRATAMENTO%20EFETIVO
+Backup: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/BACKUP%20TRATAMENTO%20EFETIVO/bkp_tratamento_efeitivo_20190615.backup
 
 ### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
 
-Link com a junção dos scripts, remoção de chave estrangeira, drop das tabelas e do backup para resturação: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/8.3%20-%20(ATUALIZADO)%20INCLUS%C3%83O%20DO%20SCRIPT%20PARA%20EXCLUS%C3%83O%20DE%20TABELAS%20EXISTENTES%2C%20CRIA%C3%87%C3%83O%20DE%20TABELA%20NOVAS%20E%20INSER%C3%87%C3%83O%20DOS%20DADOS.sql
+Link com a junção dos scripts, remoção de chave estrangeira, drop das tabelas e do backup para resturação: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/Consultas%20atualizadas/8.3%20-%20(ATUALIZADO)%20INCLUS%C3%83O%20DO%20SCRIPT%20PARA%20EXCLUS%C3%83O%20DE%20TABELAS%20EXISTENTES%2C%20CRIA%C3%87%C3%83O%20DE%20TABELA%20NOVAS%20E%20INSER%C3%87%C3%83O%20DOS%20DADOS.sql
 
-backup: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/BACKUP%20TRATAMENTO%20EFETIVO
+backup: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/BACKUP%20TRATAMENTO%20EFETIVO/bkp_tratamento_efeitivo_20190615.backup
 
 ### 8.4 Principais fluxos de informação e principais tabelas do sistema
 
@@ -293,7 +293,7 @@ View para consultar quantos dias um tratamento durou
 
 ## 9.9 - CONSULTAS COM SELF JOIN E VIEW - RELATÓRIOS PRINCIPAIS DO SISTEMA
 
-Link GIT contendo as intruções SQL: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.9%20-%20SELF%20JOIN%20E%20VIEW%20-%20RELATORIOS%20PRINCIPAIS%20DO%20SISTEMA.sql
+Link GIT contendo as intruções SQL: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/9.9%20-(ATUALIZADO)%20%20SELF%20JOIN%20E%20VIEW%20-%20RELATORIOS%20PRINCIPAIS%20DO%20SISTEMA.sql
 
 View para consultar tratamentos em andamentos e a quantia de pacientes realizando esses tratamentos
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.9/11.png)
@@ -307,8 +307,8 @@ View para consultar o número de tratamentos que foram realizados em cada hospit
 View para visualizar a média de duração dos tratamentos
 ![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.9/12.png)
 
-View para consultar a relação do número de pessoas em cada tratamento com o número total de medicamentos em cada tratamento
-![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.9/10.png)
+View para consultar a relação do número de medicamentos usado por cada pessoa de acordo com os tratamentos registrados no sistema
+![Alt text](https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/imagens%20consultas/9.9/13.png)
 
 ## 9.10 - SUBCONSULTAS
 
@@ -325,7 +325,7 @@ Usando subconsulta para verificar o nome dos médicos que participam ou particip
 
 ## 10 - BACKUP DO BANCO DE DADOS (NA PASTA CONTEM BACKUPS ANTIGOS E ATUALIZADOS)
 
-Backup: https://github.com/AEPtratamento/Tratamento-Efetivo/tree/master/BACKUP%20TRATAMENTO%20EFETIVO
+Backup: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/BACKUP%20TRATAMENTO%20EFETIVO/bkp_tratamento_efeitivo_20190615.backup
 
 ## 11 - INSTRUÇÕES PARA RESTAURAÇÃO 
 
