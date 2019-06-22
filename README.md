@@ -137,11 +137,19 @@ https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/Consul
 
 Backup: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/BACKUP%20TRATAMENTO%20EFETIVO/bkp_tratamento_efeitivo_20190615.backup
 
+Backup base de dados usado para gerar os dados do relatório da apresentação em sala de aula: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/BACKUP%20TRATAMENTO%20EFETIVO/bkp_tratamento_efetivo_20190618_apresentacao.backup
+
+Obs: Como a tabela tratamento foi a principal para gerar os relatórios, a inserção de informações novas ocorreu principalmente nela, no entanto o primeiro backup apresentado possui uma base de dados mais fiel ao sistema, porém há menos informações.
+
 ### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
 
 Link com a junção dos scripts, remoção de chave estrangeira, drop das tabelas e do backup para resturação: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/CONSULTAS/Consultas%20atualizadas/8.3%20-%20(ATUALIZADO)%20INCLUS%C3%83O%20DO%20SCRIPT%20PARA%20EXCLUS%C3%83O%20DE%20TABELAS%20EXISTENTES%2C%20CRIA%C3%87%C3%83O%20DE%20TABELA%20NOVAS%20E%20INSER%C3%87%C3%83O%20DOS%20DADOS.sql
 
 backup: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/BACKUP%20TRATAMENTO%20EFETIVO/bkp_tratamento_efeitivo_20190615.backup
+
+Backup base de dados usado para gerar os dados do relatório da apresentação em sala de aula: https://github.com/AEPtratamento/Tratamento-Efetivo/blob/master/BACKUP%20TRATAMENTO%20EFETIVO/bkp_tratamento_efetivo_20190618_apresentacao.backup
+
+Obs: Como a tabela tratamento foi a principal para gerar os relatórios, a inserção de informações novas ocorreu principalmente nela, no entanto o primeiro backup apresentado possui uma base de dados mais fiel ao sistema, porém há menos informações.
 
 ### 8.4 Principais fluxos de informação e principais tabelas do sistema
 
