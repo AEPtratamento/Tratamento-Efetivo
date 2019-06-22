@@ -26,10 +26,11 @@ Baseado na necessidade de automatizar alguns serviços de saúde, o sistema ter�
     
 > O Sistema Tratamento Efetivo precisa inicialmente dos seguintes relatórios:
 * Relatório que informa a quantidade de pessoas realizando um determinado tipo de tratamento.
-* Relatório que retorna a quantos tratamentos foram finalizados nos hospitais que possuem tratamentos registrados.
-* Relatório que mostre os hospitais que possui tratamentos em andamento;
+* Relatório que retorna a incidência de uma doença em um determinado estado.
+* Relatório que mostre os hospitais que possui tratamentos concluidos, quantificando quantos tratamentos foram concluidos.
 * Relatório contendo a média de duração do tratamentos das indisposições/doenças que possuem registro nos tratamentos finalizados.
 * Relatório que retorna o número de medicamentos usado por uma pessoa em cada tratamento que ela finalizou ou está fazendo.
+* Relatório contendo quantos tratamentos foram finalizados em cada hospital, separando por tipo de doença tratada.
  
  
 ### 4.2 TABELA DE DADOS DO SISTEMA:
